@@ -1,3 +1,4 @@
+import { loadHome } from "./home";
 import loadMenu from "./menu";
 
 const header = () => {
@@ -14,7 +15,9 @@ const header = () => {
     const homeButton = document.createElement("button");
     homeButton.className = "homeButton";
     homeButton.textContent = "Home";
-
+    homeButton.addEventListener("click", (e) => {
+        loadHome();
+      });
 
     const menuButton = document.createElement("button");
     menuButton.className = "menuButton";

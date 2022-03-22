@@ -1,4 +1,5 @@
 import header from "../pages/header";
+import { loadHome } from "../pages/home";
 
 const main = () => {
     const main = document.createElement("main");
@@ -17,6 +18,7 @@ function render() {
     content.appendChild(header());
     content.appendChild(main());
     content.appendChild(footer());
+    loadHome();
 
 };
 

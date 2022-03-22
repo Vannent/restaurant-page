@@ -1,9 +1,13 @@
 const home = () => {
-    const home = document.createElement("div");
-    home.className = "home";
+    const banner = document.createElement("div");
+    banner.className = "banner";
 
-    return home;
+    return banner;
 };
 
-
+export function loadHome() {
+    const main = document.querySelector(".main")
+    main.textContent = "";
+    main.appendChild(home());
+};
 export default home;
