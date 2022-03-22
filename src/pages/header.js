@@ -1,3 +1,4 @@
+import loadContact from "./contact";
 import { loadHome } from "./home";
 import loadMenu from "./menu";
 
@@ -30,6 +31,9 @@ const header = () => {
     const contactButton = document.createElement("button");
     contactButton.className = "contactButton";
     contactButton.textContent = "Contact";
+    contactButton.addEventListener("click", (e) => {
+        loadContact();
+       });
     
     buttons.appendChild(homeButton);
     buttons.appendChild(menuButton);

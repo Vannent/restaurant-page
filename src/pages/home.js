@@ -1,3 +1,4 @@
+import loadContact from "./contact";
 import loadMenu from "./menu";
 
 const home = () => {
@@ -17,7 +18,7 @@ const home = () => {
 
         const checkMenu = document.createElement("button")
         checkMenu.className = "checkMenu";
-        checkMenu.textContent = "Check our Menu!"
+        checkMenu.textContent = "Check our Menu!";
         checkMenu.addEventListener("click", (e) => {
             loadMenu();
         });
@@ -47,7 +48,10 @@ const home = () => {
 
         const checkContact = document.createElement("button")
         checkContact.className = "checkContact";
-        checkContact.textContent = "Contact Us!"
+        checkContact.textContent = "Contact Us!";
+        checkContact.addEventListener("click", (e) => {
+            loadContact();
+        });
     
 
     content.appendChild(banner)
