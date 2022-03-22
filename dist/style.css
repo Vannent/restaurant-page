@@ -63,6 +63,12 @@ main {
     width: 80vw;
 }
 
+.banner {
+    background-color: #75EDBF;
+    height: 35vh;
+    width: 80vw;
+}
+
 footer {
     text-align: center;
     font-weight: bold;
