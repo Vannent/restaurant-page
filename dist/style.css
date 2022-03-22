@@ -67,6 +67,43 @@ main {
     background-color: #75EDBF;
     height: 35vh;
     width: 80vw;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    justify-content: center;
+}
+
+.banner-title {
+    text-transform: uppercase;
+    font-weight: 900;
+    letter-spacing: 1px;
+    font-size: 2.5em;
+    margin-bottom: 0;
+    margin-left: 10px;
+}
+
+.banner-paragraph {
+    word-wrap: break-word;
+    margin-left: 10px;
+    margin-top: 0px;
+}
+
+.checkMenu {
+    background-color: #3d3d3d;
+    border-style: none;
+    color: #F7F7F7;
+    font-weight: 600;
+    font-size: 1em;
+    height: 30px;
+    width: 250px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.checkMenu:hover {
+    color: #75EDBF;
+    transform: scale(1.1);
+    transition: transform 330ms ease-in-out;
 }
 
 footer {
