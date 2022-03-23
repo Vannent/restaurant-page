@@ -3,7 +3,7 @@ function contact() {
     contact.className = "contact"
 
     const title = document.createElement("div")
-    title.textContent = "Title"
+    title.textContent = "Contact Information"
     
     contact.appendChild(title); 
 
