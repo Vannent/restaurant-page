@@ -252,6 +252,50 @@ main {
     font-size: 1.5em;
 }
 
+.contact {
+    display: flex;
+    flex-direction: column;
+}
+
+.paragraph-content {
+    margin-top: 0;
+    margin-bottom: 40px;
+}
+
+.contact-title {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    display: flex;
+    flex-direction: column;
+    width: 340px;
+    border-style: none;
+    border-radius: 5px;
+    margin-top: 3px;
+    margin-bottom: 8px;
+    box-shadow: 0px 0px 2px  #59595949
+}
+
+
+label {
+    margin-top: 10px;
+    font-weight: bolder;
+}
+
+#message {
+    text-align: left;
+    height: 100px;
+    width: 40vw;
+    min-width: 340px;
+}
+
 footer {
     margin-top: 10px;
     text-align: center;
