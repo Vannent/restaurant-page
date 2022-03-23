@@ -165,6 +165,78 @@ main {
     transition: transform 330ms ease-in-out;
 }
 
+.menu {
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.popular-dishes {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+}
+
+.menu-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-bottom: 50px;
+    height: 300px;
+}
+
+.food-items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+.menuContent-text {
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: auto;
+    height: 50px;
+}
+
+.food-items p {
+    font-weight: 100;
+    text-transform: none;
+    margin: 0%;
+    padding-top: 5px;
+    height: 42px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-column {
+    display: grid;
+    grid-template-columns: 25vw;
+    grid-template-rows: 50px 50px 50px;
+    gap: 50px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.right-column {
+    display: grid;
+    grid-template-columns: 25vw;
+    grid-template-rows: 50px 50px 50px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.menuContent-Price {
+    font-weight: bold;
+    font-size: 1.2em;
+}
 
 footer {
     text-align: center;
