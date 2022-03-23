@@ -42,10 +42,10 @@ function menu() {
         menuContentTitle.textContent = "Our Menu";
 
         const leftColumn = document.createElement("div")
-        leftColumn.className = "left-columnt";
+        leftColumn.className = "left-column";
 
         const rightColumn = document.createElement("div")
-        rightColumn.className = "right-columnt";
+        rightColumn.className = "right-column";
 
         const hotdog = document.createElement("div")
         hotdog.className = "food-items";
@@ -55,7 +55,7 @@ function menu() {
         hotdogText.className = "menuContent-text";
         hotdogText.textContent = "Sauerkraut Hot Dog";
         const hotdogContent = document.createElement("p");
-        hotdogContent.textContent = "Hot dog topped with sauerkraut and served on a fluffy bun.";
+        hotdogContent.textContent = "Hot dog topped with sauerkraut.";
         const hotdogPrice = document.createElement("div");
         hotdogPrice.className = "menuContent-Price";
         hotdogPrice.textContent = "$7.99";
@@ -66,7 +66,7 @@ function menu() {
         pastaIcon.src = pastaImage;
         const pastaText = document.createElement("div");
         pastaText.className = "menuContent-text";
-        pastaText.textContent = "Spaghetti Aglio e Olio";
+        pastaText.textContent = "Aglio e Olio";
         const pastaContent = document.createElement("p");
         pastaContent.textContent = "Spaghetti pasta tossed with garlic and olive oil.";
         const pastaPrice = document.createElement("div");
@@ -92,11 +92,11 @@ function menu() {
         burgerIcon.src = burgerImage;
         const burgerText = document.createElement("div");
         burgerText.className = "menuContent-text";
-        burgerText.textContent = "Avocado Beef Burger";
+        burgerText.textContent = "Avocado Burger";
         const burgerContent = document.createElement("p");
         burgerContent.textContent = "Burger topped with freshly sliced avocado.";
         const burgerPrice = document.createElement("div");
-        burgerPrice.className = "menuContent-price";
+        burgerPrice.className = "menuContent-Price";
         burgerPrice.textContent = "$10.99";
 
         const turkey = document.createElement("div")
@@ -105,9 +105,9 @@ function menu() {
         turkeyIcon.src = turkeyImage;
         const turkeyText = document.createElement("div");
         turkeyText.className = "menuContent-text";
-        turkeyText.textContent = "Marmalade Roast Turkey";
+        turkeyText.textContent = "Marmalade Turkey";
         const turkeyContent = document.createElement("p");
-        turkeyContent.textContent = "Sweet and shap turkey glazed with marmalade, oranges and rosemary.";
+        turkeyContent.textContent = "Sweet turkey glazed with marmalade.";
         const turkeyPrice = document.createElement("div");
         turkeyPrice.className = "menuContent-Price";
         turkeyPrice.textContent = "$20.99";
