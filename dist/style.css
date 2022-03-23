@@ -1,8 +1,8 @@
 body {
     display: flex;
     width: 100vw;
-    height: 115vh;
-    margin: 10px;
+    min-height: 100vh;
+    max-height: 115vh;
     padding: 0;
     margin: 0%;
     justify-content: center;
@@ -188,6 +188,14 @@ main {
     gap: 50px;
     margin-bottom: 50px;
     flex-wrap: wrap;
+    flex-grow: 0;
+    max-width: 800px;
+}
+
+@media (min-width : 1000px) {
+    .menu-content {
+        flex-wrap: nowrap;
+    }
 }
 
 .food-items {
@@ -196,6 +204,7 @@ main {
     align-items: center;
     gap: 20px;
     min-width: 340px;
+    max-width: 370px;
 }
 .menuContent-text {
     font-weight: bold;
@@ -208,7 +217,7 @@ main {
     font-weight: 100;
     text-transform: none;
     margin: 0%;
-    padding-top: 0px;
+    padding-top: 8px;
     height: 42px;
     display: flex;
     justify-content: center;
@@ -240,7 +249,7 @@ main {
 
 .menuContent-Price {
     font-weight: bold;
-    font-size: 1.8vmax;
+    font-size: 1.5em;
 }
 
 footer {

@@ -68,7 +68,7 @@ function menu() {
         pastaText.className = "menuContent-text";
         pastaText.textContent = "Aglio e Olio";
         const pastaContent = document.createElement("p");
-        pastaContent.textContent = "Spaghetti pasta tossed with garlic and olive oil.";
+        pastaContent.textContent = "Spaghetti pasta with garlic and olive oil.";
         const pastaPrice = document.createElement("div");
         pastaPrice.className = "menuContent-Price";
         pastaPrice.textContent = "$14.99";
@@ -120,7 +120,7 @@ function menu() {
         pizzaText.className = "menuContent-text";
         pizzaText.textContent = "Margherita Pizza";
         const pizzaContent = document.createElement("p");
-        pizzaContent.textContent = "Pesto sauce topped with fresh roma tomatoes.";
+        pizzaContent.textContent = "Pesto sauce with fresh roma tomatoes.";
         const pizzaPrice = document.createElement("div");
         pizzaPrice.className = "menuContent-Price";
         pizzaPrice.textContent = "$15.99";
