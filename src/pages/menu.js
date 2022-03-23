@@ -139,7 +139,6 @@ function menu() {
     popularDishes.appendChild(pastaPopDish);
     popularDishes.appendChild(pizzaPopDish);
 
-
     menuContent.appendChild(leftColumn);
     menuContent.appendChild(rightColumn);
 
