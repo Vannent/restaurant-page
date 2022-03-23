@@ -81,7 +81,7 @@ function menu() {
         steakText.className = "menuContent-text";
         steakText.textContent = "Ribeye";
         const steakContent = document.createElement("p");
-        steakContent.textContent = "Well-marbled, juicy and savory ribeye.";
+        steakContent.textContent = "Marbled, juicy and savory ribeye.";
         const steakPrice = document.createElement("div");
         steakPrice.className = "menuContent-Price";
         steakPrice.textContent = "$25.99";

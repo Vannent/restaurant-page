@@ -1,7 +1,7 @@
 body {
     display: flex;
     width: 100vw;
-    height: 100vh;
+    height: 115vh;
     margin: 10px;
     padding: 0;
     margin: 0%;
@@ -68,7 +68,7 @@ header {
 main {
     display: flex;
     justify-content: center;
-    height: 90vh;
+    height: 90%;
     width: 800px;
     min-width: 400px;
     max-width: 80vw;
@@ -171,6 +171,7 @@ main {
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
+    padding-bottom: 50px;
 }
 
 .popular-dishes {
@@ -186,7 +187,7 @@ main {
     align-items: center;
     gap: 50px;
     margin-bottom: 50px;
-    height: 300px;
+    flex-wrap: wrap;
 }
 
 .food-items {
@@ -194,6 +195,7 @@ main {
     justify-content: space-between;
     align-items: center;
     gap: 20px;
+    min-width: 340px;
 }
 .menuContent-text {
     font-weight: bold;
@@ -206,11 +208,12 @@ main {
     font-weight: 100;
     text-transform: none;
     margin: 0%;
-    padding-top: 5px;
+    padding-top: 0px;
     height: 42px;
     display: flex;
     justify-content: center;
     align-items: center;
+    font-size: 1.1em;
 }
 
 .left-column {
@@ -221,6 +224,7 @@ main {
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
+    min-width: 340px;
 }
 
 .right-column {
@@ -231,14 +235,16 @@ main {
     align-items: center;
     justify-content: space-between;
     gap: 50px;
+    min-width: 340px;
 }
 
 .menuContent-Price {
     font-weight: bold;
-    font-size: 1.2em;
+    font-size: 1.8vmax;
 }
 
 footer {
+    margin-top: 10px;
     text-align: center;
     font-weight: bold;
 }
