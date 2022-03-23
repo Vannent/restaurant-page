@@ -7,7 +7,7 @@ function contact() {
     title.textContent = "Contact Information"
 
     const paragraph = document.createElement("p")
-    paragraph.className = "content"
+    paragraph.className = "paragraph-content"
     paragraph.textContent = "t vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga."
     
     const conTitle = document.createElement("div")
