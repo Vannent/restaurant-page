@@ -20,11 +20,12 @@ header {
     height: 5vh;
 }
 
+
+
 #content {
     display: flex;
     flex-direction: column;
     align-items: center;
-    
 }
 
 .title {
@@ -66,14 +67,17 @@ header {
 
 main {
     display: flex;
+    justify-content: center;
     height: 90vh;
-    width: 80vw;
+    width: 800px;
+    min-width: 400px;
+    max-width: 80vw;
 }
 
 .banner {
     background-color: #75EDBF;
     height: 35vh;
-    width: 80vw;
+    width: fit-content;
     display: flex;
     flex-direction: column;
     text-align: left;
